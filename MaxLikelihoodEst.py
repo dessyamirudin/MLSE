@@ -7,6 +7,7 @@ Created on 7 Mar 2014
 # A quadratic fit
 import scipy.stats as ss
 import matplotlib.pyplot as plt
+import math
 
 def main():
     #thetha for calculation (1000 number)
@@ -29,7 +30,7 @@ def main():
     plt.xlabel(r'$\theta$',fontsize=20)
     plt.ylabel('Probability')
     plt.title('Likelihood P(iPhone/Bintaro)')
-    plt.text(0.4, .12, r'$max \theta=0.26$')
+    #plt.text(0.4, .12, r'$max \theta=0.26$')
     plt.show()
     
 if __name__=='__main__':
